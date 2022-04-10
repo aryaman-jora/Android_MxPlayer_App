@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Music">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Music"
+        android:gravity="center"
+        android:id="@+id/head"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:text="Dont Worry"
+        android:gravity="center"
+        android:id="@+id/text1"
+        android:layout_below="@+id/head"
+        android:layout_marginTop="60dp"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:text="Maafia"
+        android:gravity="center"
+        android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="60dp"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/head"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@id/text1"
+        android:text="play"
+        android:textSize="28dp" />
+
+    <Button
+        android:layout_width="180dp"
+        android:text="play"
+        android:textSize="28dp"
+        android:id="@+id/b2"
+        android:layout_below="@id/b1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/text2"
+        android:layout_height="70dp"/>
+
+
+</RelativeLayout>
